@@ -1,0 +1,43 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/src.dir/lapi.c.o"
+  "CMakeFiles/src.dir/lauxlib.c.o"
+  "CMakeFiles/src.dir/lbaselib.c.o"
+  "CMakeFiles/src.dir/lbitlib.c.o"
+  "CMakeFiles/src.dir/lcode.c.o"
+  "CMakeFiles/src.dir/lcorolib.c.o"
+  "CMakeFiles/src.dir/lctype.c.o"
+  "CMakeFiles/src.dir/ldblib.c.o"
+  "CMakeFiles/src.dir/ldebug.c.o"
+  "CMakeFiles/src.dir/ldo.c.o"
+  "CMakeFiles/src.dir/ldump.c.o"
+  "CMakeFiles/src.dir/lfunc.c.o"
+  "CMakeFiles/src.dir/lgc.c.o"
+  "CMakeFiles/src.dir/linit.c.o"
+  "CMakeFiles/src.dir/liolib.c.o"
+  "CMakeFiles/src.dir/llex.c.o"
+  "CMakeFiles/src.dir/lmathlib.c.o"
+  "CMakeFiles/src.dir/lmem.c.o"
+  "CMakeFiles/src.dir/loadlib.c.o"
+  "CMakeFiles/src.dir/lobject.c.o"
+  "CMakeFiles/src.dir/lopcodes.c.o"
+  "CMakeFiles/src.dir/loslib.c.o"
+  "CMakeFiles/src.dir/lparser.c.o"
+  "CMakeFiles/src.dir/lstate.c.o"
+  "CMakeFiles/src.dir/lstring.c.o"
+  "CMakeFiles/src.dir/lstrlib.c.o"
+  "CMakeFiles/src.dir/ltable.c.o"
+  "CMakeFiles/src.dir/ltablib.c.o"
+  "CMakeFiles/src.dir/ltm.c.o"
+  "CMakeFiles/src.dir/lua.c.o"
+  "CMakeFiles/src.dir/luac.c.o"
+  "CMakeFiles/src.dir/lundump.c.o"
+  "CMakeFiles/src.dir/lvm.c.o"
+  "CMakeFiles/src.dir/lzio.c.o"
+  "src.pdb"
+  "src"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang C)
+  include(CMakeFiles/src.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()
